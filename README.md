@@ -5,8 +5,9 @@ litlle C++ game inspired from old vintage "Captain Goodnight" on Apple II
 sudo apt-get install libsfml-dev
 
 ## compil/link program:
-g++ -c main.cpp  
-g++ main.o -o objectif_APL -lsfml-graphics -lsfml-window -lsfml-system
+download main.cpp and sources directory (that includes image and font)  
+compil : g++ -c main.cpp  
+link and create executable : g++ main.o -o objectif_APL -lsfml-graphics -lsfml-window -lsfml-system
 
 ## usage: 
 ./objectif_APL.app
@@ -18,8 +19,9 @@ You start with only a knife in your inventory
 
 ## how to play:
 When you fight with the knife or shooting with the gun, the important rule is to in opposite position with your oponent in order to touch him and avoiding to be touched. This means you have to stand when he is kneeing and you have to be on your knee when he's standing (up and won arrow keys)  
-arrow keys : move left, right, up, down  
-return     : pick-up an object (if there is one !)  
-space      : use the selected object  
-tab        : choose/ select object in inventory  
+  * arrow keys : move left, right, up, down  
+  * return     : pick-up an object (if there is one !)  
+  * space      : use the selected object  
+  * tab        : choose/ select object in inventory
+     
 timing is not really an issue in the game (at least until you use explosive)
